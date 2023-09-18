@@ -7,7 +7,7 @@
                         <h3>Menu</h3>
                         <ul>
                             <li>Servizi</li>
-                            <li>Shop</li>
+                            <li><router-link to="/glasses">Shop</router-link></li>
                             <li>Contatti</li>
                             <span>-</span>
                             <li>FAQ Ordini</li>

@@ -1,8 +1,10 @@
 <template>
     <div id="websiteContent" class="container">
         <div class="container">
-            <NavBar />
-            <router-view/>
+            <div id="mainContent">
+                <NavBar />
+                <router-view/>
+            </div>
             <Footer />
         </div>
     </div>
@@ -24,8 +26,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a,
-a:hover {
+a:hover,
+a:visited {
     text-decoration: none;
+    color: black;
 }
 
 ul {
@@ -43,6 +47,10 @@ ul {
 #websiteContent {
     position: relative;
     z-index: 1000;
+}
+
+#mainContent {
+    min-height: 100vh;
 }
 </style>
 
