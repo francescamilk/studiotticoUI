@@ -92,6 +92,8 @@ li, i {
     display: flex;
     position: absolute;
     background: white;
+    border-radius: 2px;
+    z-index: 1001;
 
     div {
         margin-left: 3rem;

@@ -1,9 +1,10 @@
 <template>
-    <div class="container">
-        <div class="container" id="navbar">
+    <div id="websiteContent" class="container">
+        <div class="container">
             <NavBar />
+            <router-view/>
+            <Footer />
         </div>
-        <router-view/>
     </div>
     <Background />
 </template>
@@ -39,22 +40,22 @@ ul {
     margin: 0 auto;
 }
 
-#navbar {
-    position: absolute;
-    top: 0;
+#websiteContent {
+    position: relative;
     z-index: 1000;
 }
-
 </style>
 
 <script>
-import NavBar from './components/NavBar.vue';
-import Background from './components/Background.vue';
+import NavBar from '@/components/NavBar'
+import Background from '@/components/Background'
+import Footer from '@/components/Footer'
 
 export default {
-  components: {
-    NavBar,
-    Background
-  }
+    components: {
+        NavBar,
+        Background,
+        Footer
+    }
 }
 </script>
