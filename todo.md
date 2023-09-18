@@ -4,9 +4,9 @@
     - install font
     - container 
 
-- [ ] Background component
+- [X] Background component
 
 *HomeView*
-- [X] Navbar component
+- [X] Navbar component ** (no links)
 - [ ] Header component
 - [ ] Footer component

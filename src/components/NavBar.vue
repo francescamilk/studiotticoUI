@@ -13,7 +13,7 @@
         </div>
     </nav>
 
-    <div class="dropdownWrapper" v-if="showDropdown" @mouseenter="showDropdown = true" @mouseleave="showDropdown = false">
+    <div class="dropdownWrapper" v-if="showDropdown" @mouseleave="showDropdown = false">
         <div class="dropdown">
             <div>
                 <h4>Per genere</h4>

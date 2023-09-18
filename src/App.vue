@@ -3,6 +3,7 @@
         <NavBar />
         <router-view/>
     </div>
+    <Background />
 </template>
 
 <style lang="scss">
@@ -12,6 +13,7 @@ body {
     font-family: $bodyFont;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,10 +40,12 @@ ul {
 
 <script>
 import NavBar from './components/NavBar.vue';
+import Background from './components/Background.vue';
 
 export default {
   components: {
-    NavBar
+    NavBar,
+    Background
   }
 }
 </script>
