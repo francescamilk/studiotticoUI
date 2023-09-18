@@ -9,4 +9,9 @@
 *HomeView*
 - [X] Navbar component ** (no links)
 - [X] Header component
-- [ ] Footer component
+- [X] Footer component
+
+*GlassesIndexView*
+- [ ] Fetch glasses
+- [ ] GlassCard component
+- [ ] Layout (fake filters)

@@ -23,16 +23,16 @@ h1 {
     font-size: 6rem;
     width: 80vw;
     position: absolute;
-    top: 4rem;
+    bottom: 10rem;
     z-index: 100;
     line-height: 7rem;
 }
 
 img {
-    width: 80rem;
+    width: 98rem;
     position: absolute;
-    bottom: 0;
-    left: 16rem;
+    bottom: -10rem;
+    left: 11rem;
     z-index: 10;
 }
 </style>
