@@ -1,6 +1,8 @@
 <template>
     <div class="container">
-        <NavBar />
+        <div class="container" id="navbar">
+            <NavBar />
+        </div>
         <router-view/>
     </div>
     <Background />
@@ -36,6 +38,13 @@ ul {
     max-width: 80vw;
     margin: 0 auto;
 }
+
+#navbar {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+}
+
 </style>
 
 <script>

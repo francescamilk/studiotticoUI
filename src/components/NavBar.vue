@@ -91,6 +91,7 @@ li, i {
 .dropdown {
     display: flex;
     position: absolute;
+    background: white;
 
     div {
         margin-left: 3rem;
