@@ -15,8 +15,6 @@
 </template>
 
 <style scoped lang="scss">
-@import '@/assets/config/variables.scss';
-
 #background {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
@@ -24,7 +22,7 @@
     min-width: 100vw;
     height: 100vh;
     min-height: 100vh;
-    opacity: .1;
+    opacity: .05;
     position: fixed;
     top: 0;
     left: 0;

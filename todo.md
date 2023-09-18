@@ -8,5 +8,5 @@
 
 *HomeView*
 - [X] Navbar component ** (no links)
-- [ ] Header component
+- [X] Header component
 - [ ] Footer component
