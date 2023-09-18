@@ -7,6 +7,6 @@
 - [ ] Background component
 
 *HomeView*
-- [ ] Navbar component
+- [X] Navbar component
 - [ ] Header component
 - [ ] Footer component
