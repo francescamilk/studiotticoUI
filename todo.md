@@ -13,6 +13,6 @@
 
 *GlassesIndexView*
 - [X] Link shop (nav + footer)
-- [ ] Fetch glasses
-- [ ] GlassCard component
-- [ ] Layout (fake filters)
+- [X] Fetch glasses
+- [X] GlassCard component
+- [X] Layout (fake filters)

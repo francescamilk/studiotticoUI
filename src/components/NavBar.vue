@@ -83,7 +83,7 @@ li, i {
 
     h4 {
         display: inline-block;
-        font-family: 'OpticianSans', 'Poppins', sans-serif;
+        font-family: $headersFont;
         margin-left: 1rem;
     }
 }
