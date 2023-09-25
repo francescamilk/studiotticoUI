@@ -1,8 +1,8 @@
 <template>
     <div class="glassCard">
         <img :src="glass.photos[0]" alt="Glass Image" />
-        <h3>{{ glass.brand }}</h3>
-        <h3>€{{ glass.price }}</h3>
+        <h3>{{ glass.brand }} {{ glass.name }}</h3>
+        <h3>€ {{ glass.price }}</h3>
     </div>
 </template>
 
@@ -14,7 +14,7 @@
 
 
     img {
-        width: 23rem;
+        width: 27rem;
     }
 
     h3 {

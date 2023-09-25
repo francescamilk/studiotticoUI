@@ -37,6 +37,7 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 6rem;
     margin-top: 4rem;
+    margin-left: -5rem;
 }
 
 .glassCard {

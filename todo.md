@@ -19,5 +19,5 @@
 
 --refine
 - [ ] HV  Add content
-- [ ] GIV Sizing
+- [X] GIV Sizing
 - [ ] GIV Filter logic
