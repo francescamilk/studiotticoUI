@@ -16,3 +16,8 @@
 - [X] Fetch glasses
 - [X] GlassCard component
 - [X] Layout (fake filters)
+
+--refine
+- [ ] HV  Add content
+- [ ] GIV Sizing
+- [ ] GIV Filter logic
