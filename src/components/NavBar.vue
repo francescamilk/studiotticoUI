@@ -131,7 +131,7 @@ export default {
     name: 'NavBar',
     data() {
         return {
-            showDropdown: true,
+            showDropdown: false,
         }
     }
 }
